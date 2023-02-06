@@ -1,3 +1,7 @@
+#from one string create a new variable change each letter for the next letter
+# if the letter is a vogal it should be upper case (capital letter)
+# if the character is not a letter it shoud be the same
+
 
 string_variable = "a2jkftn"
 
