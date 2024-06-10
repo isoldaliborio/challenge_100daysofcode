@@ -42,7 +42,7 @@ Return an array, where the ith element equals 1 if the triple (numbers[i], numbe
 def helloWorld(name):
     print("This prints to the console when you Run Tests")
     return "Hello, " + name
-""""
+"""
 
 def solution(numbers):
     zigzag =[]
