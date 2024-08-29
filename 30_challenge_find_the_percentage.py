@@ -8,15 +8,14 @@ Example
 """
 
 
-
 n = 2 
-students_and_scores = "Harsh" 25 26.5 28 "Anurag" 26 28 30
+students_and_scores = ["Harsh 25 26.5 28", "Anurag 26 28 30"]
 query_name = "Harsh"
 
 
 student_marks = {}
-for _ in range(n):
-        name, *line = students_and_scores.split()
+for item in students_and_scores:
+        name, *line = item.split()
         scores = list(map(float, line))
         student_marks[name] = scores
 
