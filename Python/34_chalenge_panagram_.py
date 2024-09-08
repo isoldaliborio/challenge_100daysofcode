@@ -1,4 +1,4 @@
-"Check if a string is an panagram (contains all the letters of the alphabet)"
+"Check if a string is an pangram (contains all the letters of the alphabet)"
 
 def pangrams(s):
     alphabet_set = set("abcdefghijklmnopqrstuvwxyz")
