@@ -41,7 +41,7 @@ def birthday(s, d, m):
 
 s=[2,2,1,3,2,0,4]
 d = 4
-m = 2
+m = 5
 
 print(birthday(s, d, m))
 
