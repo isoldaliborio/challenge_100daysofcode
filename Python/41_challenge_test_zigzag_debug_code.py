@@ -53,3 +53,8 @@ def findZigZagSequence(a, n):
 #         else:
 #             print(a[i], end = ' ')
 #     return
+
+
+a = [1, 2, 3, 4, 5, 6, 7]
+n = 7
+print(findZigZagSequence(a,n))
